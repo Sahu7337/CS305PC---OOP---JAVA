@@ -5,7 +5,7 @@ public class Lab2P1 {
         Scanner calc = new Scanner(System.in);
         System.out.print("Enter the value number: ");
         int a = calc.nextInt();
-        
+
         System.out.println("Choose the operator from below: ");
         System.out.println("1. ++ ");
         System.out.println("2. -- ");
