@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Lab2P1 {
     public static void main(String[] args) {
         Scanner calc = new Scanner(System.in);
-        System.out.println("Enter the value number: ");
+        System.out.print("Enter the value number: ");
         int a = calc.nextInt();
         
         System.out.println("Choose the operator from below: ");
@@ -12,18 +12,18 @@ public class Lab2P1 {
         System.out.println("3. + ");
         System.out.println("4. - ");
         System.out.println("5. ~ ");
-        System.out.println("Enter the operator: ");
-        String operator = calc.next();
+        System.out.print("Enter the operator: ");
+        String operator = calc.next(); // only for this program, not for real calculator
 
         switch (operator) {
             case "++":
-            System.out.println("Result, Post Increment:" + (a++));
-            System.out.println("Result, Pre Increment:" + (++a));
+            System.out.println("Result, Post Increment:" + (a++)); //print, then calc
+            System.out.println("Result, Pre Increment:" + (++a)); //calc, then print
             break;
 
             case "--":
-            System.out.println("Result, Post Decrement:" + (a--));
-            System.out.println("Result, Pre Decrement:" + (--a));
+            System.out.println("Result, Post Decrement:" + (a--)); //print, then calc
+            System.out.println("Result, Pre Decrement:" + (--a)); //calc, then print
             break;
 
             case "+":
