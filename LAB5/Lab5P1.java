@@ -4,7 +4,7 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
-public class Solution {
+public class Lab5P1 {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)){
             int x = sc.nextInt();
