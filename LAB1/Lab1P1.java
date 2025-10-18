@@ -73,7 +73,6 @@ class Lab1P1{
         //System.out.println(Boolean.SIZE);
         System.out.println(Boolean.TYPE);
         //System.out.println(Boolean.BYTES);
-
-
     }
 }
+
