@@ -22,7 +22,6 @@ class Add {
     }  
 }
 
-
 public class Lab5P3 {
 
     public static void main(String[] args) {
@@ -50,7 +49,6 @@ public class Lab5P3 {
 					break;
 				}
 				set.add(methods[i].getName());
-				
 			}
 			if(overload)
 			{
@@ -62,9 +60,4 @@ public class Lab5P3 {
 				e.printStackTrace();
 			}
 		}
-		
-	
-	
-
 }
-
