@@ -31,4 +31,5 @@ enum Fruits {
     public char get() {
         return a;
     }
+
 }
